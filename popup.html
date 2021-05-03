@@ -1,0 +1,5 @@
+{% for cast in casts %}
+    {{ cast.dt.hour }}h: {{ cast.temp | round }}℉
+    <img src="https://openweathermap.org/img/wn/{{ cast.icon }}@2x.png" width=35 alt="weather_icon">
+    <hr style="margin:1px">
+{% endfor %}
