@@ -41,6 +41,3 @@ class GeoMarker:
 
     def mark(self, map_: Map) -> None:
         self.marker.add_to(map_)
-
-
-print(GeoPoint(41, 3).get_weather())
